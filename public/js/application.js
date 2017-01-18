@@ -12,6 +12,7 @@ $(document).ready(function() {
     var method = $(this).attr('method');
     var data = $(this).serialize();
 
+    // use er tab or use ajax tab for snippet trigger.
     $.ajax({
       url: url, 
       type: method,
